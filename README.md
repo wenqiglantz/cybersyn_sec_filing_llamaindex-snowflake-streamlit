@@ -11,6 +11,12 @@ pip install -r requirements.txt
 
 Please note, the version incompatibility error is expected.  There is a known issue with ```snowflake-sqlalchem``` library.  Until that issue is resolved, we continue with our workaround from the ```utils.py``` file.  When we trigger the following ```streamlit run``` command to start our app, the workaround will take effect, thus allowing us to open our app in Streamlit for structured data analysis and unstructured data queries.
 
+Be sure to change the snowflake_url to point to the actual Snowflake connection details before you run the app.
+```
+snowflake_uri = "snowflake://<username>:<password>@<org-account>/<database_name>/<schema_name>?warehouse=<warehouse_name>&role=<role_name>"
+```
+
+Now run the app by kicking off this command:
 ```
 streamlit run secfilings.py
 ```
