@@ -1,5 +1,5 @@
 # cybersyn_sec_filing_llamaindex-snowflake-streamlit
-SEC 10-K Filings Analysis for Life Science Companies Leveraging Snowflake Marketplace, LlamaIndex, OpenAI, and Streamlit
+SEC 10-K Filings Analysis for Life Science Companies Leveraging Snowflake Marketplace, LlamaIndex, OpenAI, and Streamlit. Refer to my blog [SEC 10-K Filings Analysis for Life Science Companies Leveraging Snowflake Marketplace, LlamaIndex, and Streamlit](https://medium.com/snowflake/sec-10-k-filings-analysis-for-life-science-companies-leveraging-snowflake-marketplace-llamaindex-f8ef99f18abd?sk=5ae1795acbffe3af4d7414c4a827ab85) for details.
 
 ## Application Setup
 
