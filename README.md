@@ -16,6 +16,11 @@ Be sure to change the snowflake_url to point to the actual Snowflake connection 
 snowflake_uri = "snowflake://<username>:<password>@<org-account>/<database_name>/<schema_name>?warehouse=<warehouse_name>&role=<role_name>"
 ```
 
+Also add `.env` file at the project root and replace placeholder with your API key:
+```
+OPENAI_API_KEY=<YOUR-API-KEY>
+```
+
 Now run the app by kicking off this command:
 ```
 streamlit run secfilings.py
